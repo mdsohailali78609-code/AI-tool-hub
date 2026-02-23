@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tool Details - AI Tool Hub</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <img src="assets/logo.png" alt="AI Tool Hub Logo" class="site-logo-img">
+                AI Tool Hub
+            </a>
+            <nav class="main-nav">
+                <a href="index.html">Back to Home</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="tool-detail-main">
+        <div class="container">
+            <!-- Tool detail content will be injected here via JS -->
+            <div id="toolDetailContent" class="tool-detail-content">
+                <p>Loading tool details...</p>
+            </div>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2026 AI Tool Hub. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        // Simple script to handle detail page loading (simulated)
+        document.addEventListener('DOMContentLoaded', () => {
+            const params = new URLSearchParams(window.location.search);
+            const toolId = params.get('id');
+            const container = document.getElementById('toolDetailContent');
+
+            if (toolId) {
+                // Find tool in the global aiTools array (defined in script.js)
+                const tool = aiTools.find(t => t.id == toolId);
+
+                if (tool) {
+                    container.innerHTML = `
+                        <div class="detail-header">
+                            <img src="${tool.image}" alt="${tool.name} Logo" class="tool-logo-large">
+                            <div class="header-text">
+                                <h1>${tool.name}</h1>
+                                <span class="pricing-tag">${tool.pricing}</span>
+                            </div>
+                        </div>
+                        
+                        <div class="detail-grid">
+                            <div class="detail-left">
+                                <section class="detail-section">
+                                    <h2>Overview</h2>
+                                    <p>${tool.detailedDescription || tool.description}</p>
+                                    
+                                    <h3 style="margin-top: 1.5rem; color: var(--accent-color);">Best For</h3>
+                                    <p style="font-weight: 500;">${tool.bestFor || "Core users in this vertical."}</p>
+                                    
+                                    <h3 style="margin-top: 1.5rem; color: #f59e0b;">Limitations</h3>
+                                    <p>${tool.limitations || "Requires fundamental understanding of the tool's core premise."}</p>
+                                    
+                                    <h3 style="margin-top: 1.5rem; color: #10b981;">The Verdict</h3>
+                                    <p style="font-weight: 600; font-size: 1.05rem;">${tool.verdict || "A solid choice depending on your exact requirements."}</p>
+                                </section>
+
+                                <section class="detail-section">
+                                    <h2>Key Features</h2>
+                                    <ul class="feature-list">
+                                        ${tool.features.map(f => `<li>${f}</li>`).join('')}
+                                    </ul>
+                                </section>
+
+                                <section class="detail-section">
+                                    <h2>Who should use ${tool.name}?</h2>
+                                    <div class="who-use-grid">
+                                        ${tool.whoShouldUse.map(w => `<span class="badge">${w}</span>`).join('')}
+                                    </div>
+                                </section>
+                                
+                                <section class="detail-section">
+                                    <h2>Pros & Cons</h2>
+                                    <div class="pros-cons-grid">
+                                        <div class="pros">
+                                            <h3>Pros</h3>
+                                            <ul>
+                                                ${tool.pros.map(p => `<li>${p}</li>`).join('')}
+                                            </ul>
+                                        </div>
+                                        <div class="cons">
+                                            <h3>Cons</h3>
+                                            <ul>
+                                                ${tool.cons.map(c => `<li>${c}</li>`).join('')}
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </section>
+
+                                <section class="detail-section">
+                                    <h2>User Reviews</h2>
+                                    <div class="reviews-list">
+                                        ${tool.reviews.map(r => `
+                                            <div class="review-card">
+                                                <div class="review-header">
+                                                    <strong>${r.user}</strong>
+                                                    <span class="review-rating">${'★'.repeat(r.rating)}</span>
+                                                </div>
+                                                <p>${r.comment}</p>
+                                            </div>
+                                        `).join('')}
+                                    </div>
+                                </section>
+                            </div>
+
+                            <div class="detail-right">
+                                <div class="quick-stats-card">
+                                    <h3>Quick Stats</h3>
+                                    <div class="stat-row">
+                                        <span>Category:</span> <strong>${tool.category}</strong>
+                                    </div>
+                                    <div class="stat-row">
+                                        <span>Rating:</span> <strong>${tool.rating} / 5</strong>
+                                    </div>
+                                    <a href="${tool.website}" target="_blank" class="btn-visit">Visit Official Website</a>
+                                </div>
+
+                                <div class="similar-tools-card">
+                                    <h3>Similar AI Tools</h3>
+                                    <div class="similar-grid">
+                                        ${tool.similarTools.map(sid => {
+                        const sTool = aiTools.find(t => t.id === sid);
+                        return sTool ? `
+                                                <a href="tool-detail.html?id=${sTool.id}" class="similar-item">
+                                                    <img src="${sTool.image}" alt="${sTool.name}">
+                                                    <span>${sTool.name}</span>
+                                                </a>
+                                            ` : '';
+                    }).join('')}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                } else {
+                    container.innerHTML = '<p>Tool not found.</p>';
+                }
+            }
+        });
+    </script>
+</body>
+
+</html>
