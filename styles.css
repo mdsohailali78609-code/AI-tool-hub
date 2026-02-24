@@ -497,7 +497,7 @@ h2 {
 .tool-card {
     background-color: var(--card-bg);
     border-radius: 20px;
-    padding: var(--spacing-md);
+    padding: 1.5rem;
     border: 1px solid var(--card-border);
     transition: var(--transition-smooth);
     display: flex;
@@ -654,6 +654,218 @@ h2 {
     opacity: 1;
 }
 
+/* --- Tool Detail Page Layout (Medium Box) --- */
+.detail-container {
+    max-width: 850px;
+    margin: 0 auto;
+    padding: var(--spacing-md);
+}
+
+.detail-header {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin-bottom: var(--spacing-md);
+    padding: var(--spacing-md);
+    background: var(--card-bg);
+    border-radius: 20px;
+    border: 1px solid var(--card-border);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    box-shadow: var(--shadow-soft);
+}
+
+.detail-header h1 {
+    font-size: 2.2rem;
+    font-weight: 800;
+    margin-bottom: 0.25rem;
+    color: var(--text-primary);
+}
+
+.pricing-tag {
+    display: inline-block;
+    padding: 0.2rem 0.8rem;
+    background: var(--glow-color);
+    color: var(--accent-color);
+    border-radius: 50px;
+    font-size: 0.875rem;
+    font-weight: 600;
+}
+
+.detail-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: var(--spacing-lg);
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.detail-section {
+    background: var(--card-bg);
+    border: 1px solid var(--card-border);
+    border-radius: 20px;
+    padding: var(--spacing-md);
+    margin-bottom: var(--spacing-md);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    box-shadow: var(--shadow-soft);
+}
+
+.detail-section h2 {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+    display: block;
+    border-left: none;
+    padding-left: 0;
+    font-weight: 700;
+}
+
+.detail-right .quick-stats-card,
+.detail-right .similar-tools-card {
+    background: var(--card-bg);
+    border: 1px solid var(--card-border);
+    border-radius: 20px;
+    padding: var(--spacing-md);
+    margin-bottom: var(--spacing-md);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    box-shadow: var(--shadow-soft);
+}
+
+.stat-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.75rem 0;
+    border-bottom: 1px solid var(--card-border);
+}
+
+.stat-row:last-of-type {
+    border-bottom: none;
+    margin-bottom: 1rem;
+}
+
+.btn-visit {
+    display: block;
+    text-align: center;
+    background: var(--gradient-text);
+    color: white;
+    padding: 0.8rem 1rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    box-shadow: 0 4px 14px 0 rgba(99, 102, 241, 0.39);
+    transition: var(--transition-smooth);
+}
+
+.btn-visit:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(99, 102, 241, 0.23);
+    color: white;
+}
+
+.feature-list {
+    list-style: none;
+    padding-left: 0.2rem;
+}
+
+.feature-list li {
+    padding: 0.4rem 0;
+    position: relative;
+    padding-left: 1.5rem;
+}
+
+.feature-list li::before {
+    content: "→";
+    position: absolute;
+    left: 0;
+    color: var(--accent-color);
+    font-weight: bold;
+}
+
+.who-use-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.badge {
+    background: rgba(236, 72, 153, 0.1);
+    color: var(--accent-secondary);
+    padding: 0.4rem 1rem;
+    border-radius: 50px;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+.pros-cons-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+}
+
+.pros h3 {
+    color: #10b981;
+    margin-bottom: 0.5rem;
+}
+
+.cons h3 {
+    color: #ef4444;
+    margin-bottom: 0.5rem;
+}
+
+.pros ul,
+.cons ul {
+    padding-left: 1.2rem;
+    font-size: 0.95rem;
+}
+
+.review-card {
+    background: rgba(255, 255, 255, 0.5);
+    padding: 1rem;
+    border-radius: 12px;
+    margin-bottom: 0.8rem;
+    border: 1px solid rgba(0, 0, 0, 0.03);
+}
+
+.review-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.3rem;
+}
+
+.similar-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.similar-tool-card {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    padding: 0.6rem;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+    color: var(--text-primary);
+    border: 1px solid rgba(0, 0, 0, 0.03);
+    transition: var(--transition-smooth);
+}
+
+.similar-tool-card:hover {
+    background: var(--card-bg);
+    transform: translateX(5px);
+    border-color: var(--accent-color);
+}
+
+.similar-logo {
+    width: 36px;
+    height: 36px;
+    border-radius: 8px;
+    object-fit: contain;
+    background: white;
+}
+
 /* Footer */
 .site-footer {
     border-top: 1px solid var(--border-color);
@@ -704,7 +916,12 @@ h2 {
 
     #searchBtn {
         width: 100%;
-        padding: 1rem;
+        padding: 0.8rem;
+        font-size: 1rem;
+    }
+
+    #searchInput {
+        padding: 0.8rem;
     }
 
     .section,
@@ -731,6 +948,21 @@ h2 {
     .detail-header {
         margin-bottom: 2rem;
     }
+
+    .category-card {
+        padding: 0.4rem 1rem;
+        font-size: 0.85rem;
+    }
+
+    .btn-details {
+        padding: 0.5rem 1rem;
+        font-size: 0.85rem;
+    }
+
+    .btn-visit {
+        padding: 0.6rem 0.8rem;
+        font-size: 0.95rem;
+    }
 }
 
 @media (max-width: 480px) {
@@ -747,12 +979,12 @@ h2 {
     }
 
     .category-card {
-        padding: 0.5rem 1rem;
-        font-size: 0.85rem;
+        padding: 0.35rem 0.8rem;
+        font-size: 0.8rem;
     }
 
     .header-text h1 {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 
     .tool-logo-large {
@@ -775,6 +1007,25 @@ h2 {
     .pricing-tag {
         font-size: 0.8rem;
         padding: 0.25rem 0.8rem;
+    }
+
+    .tool-card {
+        padding: 1.2rem;
+    }
+
+    .btn-details {
+        padding: 0.45rem 0.8rem;
+        font-size: 0.8rem;
+    }
+
+    .detail-header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .detail-grid {
+        grid-template-columns: 1fr;
     }
 }
 

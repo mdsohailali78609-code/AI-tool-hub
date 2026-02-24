@@ -19,7 +19,7 @@ const aiTools = [
         similarTools: [2, 4],
         image: "assets/chatgpt.svg",
         featured: true
-,
+        ,
         bestFor: "Highly recommended for its core use cases to maximize efficiency and output.",
         limitations: "May require a learning curve to fully master all advanced features.",
         verdict: "An exceptionally powerful tool in its category, highly recommended."
@@ -43,7 +43,7 @@ const aiTools = [
         similarTools: [1, 3],
         image: "assets/midjourney.svg",
         featured: true
-,
+        ,
         bestFor: "Highly recommended for its core use cases to maximize efficiency and output.",
         limitations: "May require a learning curve to fully master all advanced features.",
         verdict: "An exceptionally powerful tool in its category, highly recommended."
@@ -67,7 +67,7 @@ const aiTools = [
         similarTools: [3, 5],
         image: "assets/emergent.svg",
         featured: true
-,
+        ,
         bestFor: "Highly recommended for its core use cases to maximize efficiency and output.",
         limitations: "May require a learning curve to fully master all advanced features.",
         verdict: "An exceptionally powerful tool in its category, highly recommended."
@@ -91,7 +91,7 @@ const aiTools = [
         similarTools: [6, 1],
         image: "assets/copilot.svg",
         featured: true
-,
+        ,
         bestFor: "Highly recommended for its core use cases to maximize efficiency and output.",
         limitations: "May require a learning curve to fully master all advanced features.",
         verdict: "An exceptionally powerful tool in its category, highly recommended."
@@ -115,7 +115,7 @@ const aiTools = [
         similarTools: [1, 5],
         image: "assets/jasper.svg",
         featured: false
-,
+        ,
         bestFor: "Highly recommended for its core use cases to maximize efficiency and output.",
         limitations: "May require a learning curve to fully master all advanced features.",
         verdict: "An exceptionally powerful tool in its category, highly recommended."
@@ -139,7 +139,7 @@ const aiTools = [
         similarTools: [4, 1],
         image: "assets/notion.svg",
         featured: false
-,
+        ,
         bestFor: "Highly recommended for its core use cases to maximize efficiency and output.",
         limitations: "May require a learning curve to fully master all advanced features.",
         verdict: "An exceptionally powerful tool in its category, highly recommended."
@@ -163,7 +163,7 @@ const aiTools = [
         similarTools: [8, 9, 10],
         image: "assets/studyfetch.svg",
         featured: true
-,
+        ,
         bestFor: "Highly recommended for its core use cases to maximize efficiency and output.",
         limitations: "May require a learning curve to fully master all advanced features.",
         verdict: "An exceptionally powerful tool in its category, highly recommended."
@@ -187,7 +187,7 @@ const aiTools = [
         similarTools: [7, 9, 10],
         image: "assets/cogent.svg",
         featured: true
-,
+        ,
         bestFor: "Highly recommended for its core use cases to maximize efficiency and output.",
         limitations: "May require a learning curve to fully master all advanced features.",
         verdict: "An exceptionally powerful tool in its category, highly recommended."
@@ -211,7 +211,7 @@ const aiTools = [
         similarTools: [7, 8, 10],
         image: "assets/mindgrasp.svg",
         featured: true
-,
+        ,
         bestFor: "Highly recommended for its core use cases to maximize efficiency and output.",
         limitations: "May require a learning curve to fully master all advanced features.",
         verdict: "An exceptionally powerful tool in its category, highly recommended."
@@ -235,7 +235,7 @@ const aiTools = [
         similarTools: [7, 8, 9],
         image: "assets/quizlet.svg",
         featured: true
-,
+        ,
         bestFor: "Highly recommended for its core use cases to maximize efficiency and output.",
         limitations: "May require a learning curve to fully master all advanced features.",
         verdict: "An exceptionally powerful tool in its category, highly recommended."
@@ -257,7 +257,7 @@ const aiTools = [
         similarTools: [13, 10],
         image: "assets/khanmigo.svg",
         featured: false
-,
+        ,
         bestFor: "Highly recommended for its core use cases to maximize efficiency and output.",
         limitations: "May require a learning curve to fully master all advanced features.",
         verdict: "An exceptionally powerful tool in its category, highly recommended."
@@ -279,7 +279,7 @@ const aiTools = [
         similarTools: [9, 44, 49],
         image: "assets/notebooklm.svg",
         featured: true
-,
+        ,
         bestFor: "Highly recommended for its core use cases to maximize efficiency and output.",
         limitations: "May require a learning curve to fully master all advanced features.",
         verdict: "An exceptionally powerful tool in its category, highly recommended."
@@ -301,7 +301,7 @@ const aiTools = [
         similarTools: [11],
         image: "assets/chatgpt.svg",
         featured: false
-,
+        ,
         bestFor: "Highly recommended for its core use cases to maximize efficiency and output.",
         limitations: "May require a learning curve to fully master all advanced features.",
         verdict: "An exceptionally powerful tool in its category, highly recommended."
@@ -323,7 +323,7 @@ const aiTools = [
         similarTools: [4, 42],
         image: "assets/grammarly.svg",
         featured: false
-,
+        ,
         bestFor: "Highly recommended for its core use cases to maximize efficiency and output.",
         limitations: "May require a learning curve to fully master all advanced features.",
         verdict: "An exceptionally powerful tool in its category, highly recommended."
@@ -345,7 +345,7 @@ const aiTools = [
         similarTools: [16, 20],
         image: "assets/photomath.svg",
         featured: true
-,
+        ,
         bestFor: "Highly recommended for its core use cases to maximize efficiency and output.",
         limitations: "May require a learning curve to fully master all advanced features.",
         verdict: "An exceptionally powerful tool in its category, highly recommended."
@@ -367,7 +367,7 @@ const aiTools = [
         similarTools: [1, 12, 18],
         image: "assets/perplexity.svg",
         featured: true
-,
+        ,
         bestFor: "Highly recommended for its core use cases to maximize efficiency and output.",
         limitations: "May require a learning curve to fully master all advanced features.",
         verdict: "An exceptionally powerful tool in its category, highly recommended."
@@ -389,7 +389,7 @@ const aiTools = [
         similarTools: [15, 20],
         image: "assets/mathsolver.svg",
         featured: false
-,
+        ,
         bestFor: "Highly recommended for its core use cases to maximize efficiency and output.",
         limitations: "May require a learning curve to fully master all advanced features.",
         verdict: "An exceptionally powerful tool in its category, highly recommended."
@@ -411,7 +411,7 @@ const aiTools = [
         similarTools: [16, 26],
         image: "assets/socratic.svg",
         featured: false
-,
+        ,
         bestFor: "Highly recommended for its core use cases to maximize efficiency and output.",
         limitations: "May require a learning curve to fully master all advanced features.",
         verdict: "An exceptionally powerful tool in its category, highly recommended."
@@ -433,7 +433,7 @@ const aiTools = [
         similarTools: [20, 21, 22],
         image: "assets/wolfram.svg",
         featured: true
-,
+        ,
         bestFor: "Highly recommended for its core use cases to maximize efficiency and output.",
         limitations: "May require a learning curve to fully master all advanced features.",
         verdict: "An exceptionally powerful tool in its category, highly recommended."
@@ -455,7 +455,7 @@ const aiTools = [
         similarTools: [15, 16],
         image: "assets/notegpt.svg",
         featured: false
-,
+        ,
         bestFor: "Highly recommended for its core use cases to maximize efficiency and output.",
         limitations: "May require a learning curve to fully master all advanced features.",
         verdict: "An exceptionally powerful tool in its category, highly recommended."
@@ -477,7 +477,7 @@ const aiTools = [
         similarTools: [19],
         image: "assets/geogebra.svg",
         featured: false
-,
+        ,
         bestFor: "Highly recommended for its core use cases to maximize efficiency and output.",
         limitations: "May require a learning curve to fully master all advanced features.",
         verdict: "An exceptionally powerful tool in its category, highly recommended."
@@ -499,7 +499,7 @@ const aiTools = [
         similarTools: [23, 19],
         image: "assets/mathway.svg",
         featured: false
-,
+        ,
         bestFor: "Highly recommended for its core use cases to maximize efficiency and output.",
         limitations: "May require a learning curve to fully master all advanced features.",
         verdict: "An exceptionally powerful tool in its category, highly recommended."
@@ -521,7 +521,7 @@ const aiTools = [
         similarTools: [22, 24],
         image: "assets/symbolab.svg",
         featured: false
-,
+        ,
         bestFor: "Highly recommended for its core use cases to maximize efficiency and output.",
         limitations: "May require a learning curve to fully master all advanced features.",
         verdict: "An exceptionally powerful tool in its category, highly recommended."
@@ -543,7 +543,7 @@ const aiTools = [
         similarTools: [23],
         image: "assets/quickmath.svg",
         featured: false
-,
+        ,
         bestFor: "Highly recommended for its core use cases to maximize efficiency and output.",
         limitations: "May require a learning curve to fully master all advanced features.",
         verdict: "An exceptionally powerful tool in its category, highly recommended."
@@ -565,7 +565,7 @@ const aiTools = [
         similarTools: [26, 18],
         image: "assets/physicsai.svg",
         featured: false
-,
+        ,
         bestFor: "Highly recommended for its core use cases to maximize efficiency and output.",
         limitations: "May require a learning curve to fully master all advanced features.",
         verdict: "An exceptionally powerful tool in its category, highly recommended."
@@ -587,7 +587,7 @@ const aiTools = [
         similarTools: [25],
         image: "assets/physicsgpt.svg",
         featured: false
-,
+        ,
         bestFor: "Highly recommended for its core use cases to maximize efficiency and output.",
         limitations: "May require a learning curve to fully master all advanced features.",
         verdict: "An exceptionally powerful tool in its category, highly recommended."
@@ -609,7 +609,7 @@ const aiTools = [
         similarTools: [28],
         image: "assets/learnfast.svg",
         featured: false
-,
+        ,
         bestFor: "Highly recommended for its core use cases to maximize efficiency and output.",
         limitations: "May require a learning curve to fully master all advanced features.",
         verdict: "An exceptionally powerful tool in its category, highly recommended."
@@ -631,7 +631,7 @@ const aiTools = [
         similarTools: [27],
         image: "assets/circai.svg",
         featured: false
-,
+        ,
         bestFor: "Highly recommended for its core use cases to maximize efficiency and output.",
         limitations: "May require a learning curve to fully master all advanced features.",
         verdict: "An exceptionally powerful tool in its category, highly recommended."
@@ -653,7 +653,7 @@ const aiTools = [
         similarTools: [4, 12],
         image: "assets/gamma.svg",
         featured: true
-,
+        ,
         bestFor: "Highly recommended for its core use cases to maximize efficiency and output.",
         limitations: "May require a learning curve to fully master all advanced features.",
         verdict: "An exceptionally powerful tool in its category, highly recommended."
@@ -675,7 +675,7 @@ const aiTools = [
         similarTools: [1, 31],
         image: "assets/claude.svg",
         featured: true
-,
+        ,
         bestFor: "Highly recommended for its core use cases to maximize efficiency and output.",
         limitations: "May require a learning curve to fully master all advanced features.",
         verdict: "An exceptionally powerful tool in its category, highly recommended."
@@ -697,7 +697,7 @@ const aiTools = [
         similarTools: [1, 30],
         image: "assets/gemini.svg",
         featured: false
-,
+        ,
         bestFor: "Highly recommended for its core use cases to maximize efficiency and output.",
         limitations: "May require a learning curve to fully master all advanced features.",
         verdict: "An exceptionally powerful tool in its category, highly recommended."
@@ -719,7 +719,7 @@ const aiTools = [
         similarTools: [30, 1],
         image: "assets/deepseek.svg",
         featured: true
-,
+        ,
         bestFor: "Highly recommended for its core use cases to maximize efficiency and output.",
         limitations: "May require a learning curve to fully master all advanced features.",
         verdict: "An exceptionally powerful tool in its category, highly recommended."
@@ -741,7 +741,7 @@ const aiTools = [
         similarTools: [34, 35],
         image: "assets/runway.svg",
         featured: true
-,
+        ,
         bestFor: "Highly recommended for its core use cases to maximize efficiency and output.",
         limitations: "May require a learning curve to fully master all advanced features.",
         verdict: "An exceptionally powerful tool in its category, highly recommended."
@@ -763,7 +763,7 @@ const aiTools = [
         similarTools: [33, 35],
         image: "assets/sora.svg",
         featured: true
-,
+        ,
         bestFor: "Highly recommended for its core use cases to maximize efficiency and output.",
         limitations: "May require a learning curve to fully master all advanced features.",
         verdict: "An exceptionally powerful tool in its category, highly recommended."
@@ -785,7 +785,7 @@ const aiTools = [
         similarTools: [33],
         image: "assets/synthesia.svg",
         featured: false
-,
+        ,
         bestFor: "Highly recommended for its core use cases to maximize efficiency and output.",
         limitations: "May require a learning curve to fully master all advanced features.",
         verdict: "An exceptionally powerful tool in its category, highly recommended."
@@ -807,7 +807,7 @@ const aiTools = [
         similarTools: [3, 37],
         image: "assets/cursor.svg",
         featured: true
-,
+        ,
         bestFor: "Highly recommended for its core use cases to maximize efficiency and output.",
         limitations: "May require a learning curve to fully master all advanced features.",
         verdict: "An exceptionally powerful tool in its category, highly recommended."
@@ -829,7 +829,7 @@ const aiTools = [
         similarTools: [36, 3],
         image: "assets/replit.svg",
         featured: false
-,
+        ,
         bestFor: "Highly recommended for its core use cases to maximize efficiency and output.",
         limitations: "May require a learning curve to fully master all advanced features.",
         verdict: "An exceptionally powerful tool in its category, highly recommended."
@@ -851,7 +851,7 @@ const aiTools = [
         similarTools: [2, 39],
         image: "assets/stablediffusion.svg",
         featured: false
-,
+        ,
         bestFor: "Highly recommended for its core use cases to maximize efficiency and output.",
         limitations: "May require a learning curve to fully master all advanced features.",
         verdict: "An exceptionally powerful tool in its category, highly recommended."
@@ -873,7 +873,7 @@ const aiTools = [
         similarTools: [2, 38],
         image: "assets/ideogram.svg",
         featured: false
-,
+        ,
         bestFor: "Highly recommended for its core use cases to maximize efficiency and output.",
         limitations: "May require a learning curve to fully master all advanced features.",
         verdict: "An exceptionally powerful tool in its category, highly recommended."
@@ -895,7 +895,7 @@ const aiTools = [
         similarTools: [41, 46],
         image: "assets/suno.svg",
         featured: true
-,
+        ,
         bestFor: "Highly recommended for its core use cases to maximize efficiency and output.",
         limitations: "May require a learning curve to fully master all advanced features.",
         verdict: "An exceptionally powerful tool in its category, highly recommended."
@@ -917,7 +917,7 @@ const aiTools = [
         similarTools: [40],
         image: "assets/elevenlabs.svg",
         featured: true
-,
+        ,
         bestFor: "Highly recommended for its core use cases to maximize efficiency and output.",
         limitations: "May require a learning curve to fully master all advanced features.",
         verdict: "An exceptionally powerful tool in its category, highly recommended."
@@ -939,7 +939,7 @@ const aiTools = [
         similarTools: [4],
         image: "assets/copyai.svg",
         featured: false
-,
+        ,
         bestFor: "Highly recommended for its core use cases to maximize efficiency and output.",
         limitations: "May require a learning curve to fully master all advanced features.",
         verdict: "An exceptionally powerful tool in its category, highly recommended."
@@ -961,7 +961,7 @@ const aiTools = [
         similarTools: [14, 4],
         image: "assets/quillbot.svg",
         featured: false
-,
+        ,
         bestFor: "Highly recommended for its core use cases to maximize efficiency and output.",
         limitations: "May require a learning curve to fully master all advanced features.",
         verdict: "An exceptionally powerful tool in its category, highly recommended."
@@ -983,7 +983,7 @@ const aiTools = [
         similarTools: [14, 43],
         image: "assets/wordtune.svg",
         featured: false
-,
+        ,
         bestFor: "Highly recommended for its core use cases to maximize efficiency and output.",
         limitations: "May require a learning curve to fully master all advanced features.",
         verdict: "An exceptionally powerful tool in its category, highly recommended."
@@ -1005,7 +1005,7 @@ const aiTools = [
         similarTools: [],
         image: "assets/fireflies.svg",
         featured: false
-,
+        ,
         bestFor: "Highly recommended for its core use cases to maximize efficiency and output.",
         limitations: "May require a learning curve to fully master all advanced features.",
         verdict: "An exceptionally powerful tool in its category, highly recommended."
@@ -1027,7 +1027,7 @@ const aiTools = [
         similarTools: [],
         image: "assets/zapier.svg",
         featured: false
-,
+        ,
         bestFor: "Highly recommended for its core use cases to maximize efficiency and output.",
         limitations: "May require a learning curve to fully master all advanced features.",
         verdict: "An exceptionally powerful tool in its category, highly recommended."
@@ -1049,7 +1049,7 @@ const aiTools = [
         similarTools: [40],
         image: "assets/udio.svg",
         featured: false
-,
+        ,
         bestFor: "Highly recommended for its core use cases to maximize efficiency and output.",
         limitations: "May require a learning curve to fully master all advanced features.",
         verdict: "An exceptionally powerful tool in its category, highly recommended."
@@ -1071,7 +1071,7 @@ const aiTools = [
         similarTools: [41],
         image: "assets/adobepodcast.svg",
         featured: true
-,
+        ,
         bestFor: "Highly recommended for its core use cases to maximize efficiency and output.",
         limitations: "May require a learning curve to fully master all advanced features.",
         verdict: "An exceptionally powerful tool in its category, highly recommended."
@@ -1093,7 +1093,7 @@ const aiTools = [
         similarTools: [50, 51],
         image: "assets/hebbia.svg",
         featured: false
-,
+        ,
         bestFor: "Highly recommended for its core use cases to maximize efficiency and output.",
         limitations: "May require a learning curve to fully master all advanced features.",
         verdict: "An exceptionally powerful tool in its category, highly recommended."
@@ -1115,7 +1115,7 @@ const aiTools = [
         similarTools: [49],
         image: "assets/harvey.svg",
         featured: false
-,
+        ,
         bestFor: "Highly recommended for its core use cases to maximize efficiency and output.",
         limitations: "May require a learning curve to fully master all advanced features.",
         verdict: "An exceptionally powerful tool in its category, highly recommended."
@@ -1137,7 +1137,7 @@ const aiTools = [
         similarTools: [49],
         image: "assets/glean.svg",
         featured: false
-,
+        ,
         bestFor: "Highly recommended for its core use cases to maximize efficiency and output.",
         limitations: "May require a learning curve to fully master all advanced features.",
         verdict: "An exceptionally powerful tool in its category, highly recommended."
@@ -1159,7 +1159,7 @@ const aiTools = [
         similarTools: [46],
         image: "assets/lindy.svg",
         featured: false
-,
+        ,
         bestFor: "Highly recommended for its core use cases to maximize efficiency and output.",
         limitations: "May require a learning curve to fully master all advanced features.",
         verdict: "An exceptionally powerful tool in its category, highly recommended."
@@ -1181,7 +1181,7 @@ const aiTools = [
         similarTools: [13],
         image: "assets/personalai.svg",
         featured: false
-,
+        ,
         bestFor: "Highly recommended for its core use cases to maximize efficiency and output.",
         limitations: "May require a learning curve to fully master all advanced features.",
         verdict: "An exceptionally powerful tool in its category, highly recommended."
@@ -1203,7 +1203,7 @@ const aiTools = [
         similarTools: [],
         image: "assets/v7go.svg",
         featured: false
-,
+        ,
         bestFor: "Highly recommended for its core use cases to maximize efficiency and output.",
         limitations: "May require a learning curve to fully master all advanced features.",
         verdict: "An exceptionally powerful tool in its category, highly recommended."
@@ -1225,7 +1225,7 @@ const aiTools = [
         similarTools: [13, 31],
         image: "assets/copilotms.svg",
         featured: false
-,
+        ,
         bestFor: "Highly recommended for its core use cases to maximize efficiency and output.",
         limitations: "May require a learning curve to fully master all advanced features.",
         verdict: "An exceptionally powerful tool in its category, highly recommended."
@@ -1247,7 +1247,7 @@ const aiTools = [
         similarTools: [13],
         image: "assets/metaai.svg",
         featured: false
-,
+        ,
         bestFor: "Highly recommended for its core use cases to maximize efficiency and output.",
         limitations: "May require a learning curve to fully master all advanced features.",
         verdict: "An exceptionally powerful tool in its category, highly recommended."
@@ -1269,7 +1269,7 @@ const aiTools = [
         similarTools: [13],
         image: "assets/grok.svg",
         featured: false
-,
+        ,
         bestFor: "Highly recommended for its core use cases to maximize efficiency and output.",
         limitations: "May require a learning curve to fully master all advanced features.",
         verdict: "An exceptionally powerful tool in its category, highly recommended."
@@ -1291,7 +1291,7 @@ const aiTools = [
         similarTools: [2, 38, 39],
         image: "assets/dalle.svg",
         featured: true
-,
+        ,
         bestFor: "Highly recommended for its core use cases to maximize efficiency and output.",
         limitations: "May require a learning curve to fully master all advanced features.",
         verdict: "An exceptionally powerful tool in its category, highly recommended."
@@ -1313,7 +1313,7 @@ const aiTools = [
         similarTools: [2, 58],
         image: "assets/firefly.svg",
         featured: false
-,
+        ,
         bestFor: "Highly recommended for its core use cases to maximize efficiency and output.",
         limitations: "May require a learning curve to fully master all advanced features.",
         verdict: "An exceptionally powerful tool in its category, highly recommended."
@@ -1335,7 +1335,7 @@ const aiTools = [
         similarTools: [38, 2],
         image: "assets/leonardo.svg",
         featured: false
-,
+        ,
         bestFor: "Highly recommended for its core use cases to maximize efficiency and output.",
         limitations: "May require a learning curve to fully master all advanced features.",
         verdict: "An exceptionally powerful tool in its category, highly recommended."
@@ -1357,7 +1357,7 @@ const aiTools = [
         similarTools: [33],
         image: "assets/descript.svg",
         featured: false
-,
+        ,
         bestFor: "Highly recommended for its core use cases to maximize efficiency and output.",
         limitations: "May require a learning curve to fully master all advanced features.",
         verdict: "An exceptionally powerful tool in its category, highly recommended."
@@ -1379,7 +1379,7 @@ const aiTools = [
         similarTools: [33, 34],
         image: "assets/pikalabs.svg",
         featured: false
-,
+        ,
         bestFor: "Highly recommended for its core use cases to maximize efficiency and output.",
         limitations: "May require a learning curve to fully master all advanced features.",
         verdict: "An exceptionally powerful tool in its category, highly recommended."
@@ -1401,7 +1401,7 @@ const aiTools = [
         similarTools: [34, 33],
         image: "assets/veo.svg",
         featured: false
-,
+        ,
         bestFor: "Highly recommended for its core use cases to maximize efficiency and output.",
         limitations: "May require a learning curve to fully master all advanced features.",
         verdict: "An exceptionally powerful tool in its category, highly recommended."
@@ -1423,7 +1423,7 @@ const aiTools = [
         similarTools: [],
         image: "assets/topaz.svg",
         featured: false
-,
+        ,
         bestFor: "Highly recommended for its core use cases to maximize efficiency and output.",
         limitations: "May require a learning curve to fully master all advanced features.",
         verdict: "An exceptionally powerful tool in its category, highly recommended."
@@ -1445,7 +1445,7 @@ const aiTools = [
         similarTools: [36, 3],
         image: "assets/claudecode.svg",
         featured: false
-,
+        ,
         bestFor: "Highly recommended for its core use cases to maximize efficiency and output.",
         limitations: "May require a learning curve to fully master all advanced features.",
         verdict: "An exceptionally powerful tool in its category, highly recommended."
@@ -1467,7 +1467,7 @@ const aiTools = [
         similarTools: [3, 36],
         image: "assets/blackbox.svg",
         featured: false
-,
+        ,
         bestFor: "Highly recommended for its core use cases to maximize efficiency and output.",
         limitations: "May require a learning curve to fully master all advanced features.",
         verdict: "An exceptionally powerful tool in its category, highly recommended."
@@ -1480,12 +1480,24 @@ document.addEventListener('DOMContentLoaded', () => {
     const searchBtn = document.getElementById('searchBtn');
     const categoryCards = document.querySelectorAll('.category-card');
 
+    // Function to get official logo from domain
+    function getOfficialLogo(tool) {
+        try {
+            const domain = new URL(tool.website).hostname;
+            return `https://icon.horse/icon/${domain}`;
+        } catch (e) {
+            return `/${tool.image}`;
+        }
+    }
+
     // Function to create tool card HTML
     function createToolCard(tool) {
+        const logoUrl = getOfficialLogo(tool);
+        const fallback = `/${tool.image}`;
         return `
             <div class="tool-card">
                 <div class="tool-header">
-                    <img src="${tool.image}" alt="${tool.name} Logo" class="tool-logo">
+                    <img src="${logoUrl}" onerror="this.onerror=null; this.src='${fallback}';" alt="${tool.name} Logo" class="tool-logo">
                     <div class="tool-info">
                         <h3>${tool.name}</h3>
                         <span class="tool-category">${tool.category}</span>
