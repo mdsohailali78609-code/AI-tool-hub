@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About the Founder | AI Tool Hub</title>
+    <meta name="description" content="Learn more about Md Sohail Ali, the creator and founder of AI Tool Hub.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css?v=3.5">
+    <style>
+        .about-main {
+            padding: var(--spacing-xl) 0;
+            max-width: 900px;
+            margin: 0 auto;
+            position: relative;
+            z-index: 10;
+        }
+
+        .profile-header {
+            text-align: center;
+            margin-bottom: var(--spacing-xl);
+            animation: fadeInUp 0.8s ease-out forwards;
+        }
+
+        .avatar-container {
+            position: relative;
+            width: 180px;
+            height: 180px;
+            margin: 0 auto 2rem auto;
+            border-radius: 50%;
+            background: linear-gradient(135deg, var(--accent-color), #ec4899);
+            padding: 4px;
+            box-shadow: 0 20px 40px -10px rgba(99, 102, 241, 0.4);
+        }
+
+        .avatar {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid var(--card-bg);
+            background-color: #f8fafc;
+        }
+
+        .floating-badge {
+            position: absolute;
+            bottom: 5px;
+            right: 5px;
+            background: #10b981;
+            color: white;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.2rem;
+            border: 3px solid var(--card-bg);
+        }
+
+        .profile-name {
+            font-size: 3rem;
+            font-weight: 800;
+            margin-bottom: 0.5rem;
+            background: var(--gradient-text);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .profile-title {
+            font-size: 1.25rem;
+            color: var(--text-secondary);
+            font-weight: 500;
+            letter-spacing: 1px;
+        }
+
+        .about-grid {
+            display: grid;
+            grid-template-columns: 3fr 2fr;
+            gap: var(--spacing-lg);
+            opacity: 0;
+            animation: fadeInUp 0.8s ease-out 0.2s forwards;
+        }
+
+        .about-card {
+            background: var(--card-bg);
+            border: 1px solid var(--card-border);
+            border-radius: 20px;
+            padding: var(--spacing-lg);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            box-shadow: var(--shadow-soft);
+            transition: var(--transition-smooth);
+        }
+
+        .about-card:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-hover);
+            border-color: rgba(79, 70, 229, 0.3);
+        }
+
+        .about-card h2 {
+            font-size: 1.5rem;
+            margin-bottom: 1.5rem;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .about-card p {
+            color: var(--text-secondary);
+            line-height: 1.8;
+            margin-bottom: 1.5rem;
+            font-size: 1.05rem;
+        }
+
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.8rem;
+        }
+
+        .skill-tag {
+            background: rgba(79, 70, 229, 0.08);
+            color: var(--accent-color);
+            padding: 0.5rem 1rem;
+            border-radius: 50px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            border: 1px solid rgba(79, 70, 229, 0.2);
+        }
+
+        .social-links {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        .social-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            padding: 1rem;
+            background: #f8fafc;
+            border: 1px solid var(--card-border);
+            border-radius: 12px;
+            color: var(--text-primary);
+            font-weight: 600;
+            transition: var(--transition-smooth);
+            text-decoration: none;
+        }
+
+        .social-btn:hover {
+            background: var(--accent-color);
+            color: white;
+            transform: scale(1.02);
+        }
+
+        @media (max-width: 768px) {
+            .about-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .profile-name {
+                font-size: 2.5rem;
+            }
+
+            .about-main {
+                padding: var(--spacing-md);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Ambient Background -->
+    <div class="ambient-background">
+        <div class="ambient-orb orb-1"></div>
+        <div class="ambient-orb orb-2"></div>
+        <div class="ambient-orb orb-3"></div>
+    </div>
+
+    <!-- Global 3D Floating Elements -->
+    <div class="global-3d-icons">
+        <div class="g-icon g-icon-1">🚀</div>
+        <div class="g-icon g-icon-2">🖼️</div>
+        <div class="g-icon g-icon-3">🤖</div>
+        <div class="g-icon g-icon-4">✨</div>
+        <div class="g-icon g-icon-5">📈</div>
+        <div class="g-icon g-icon-6">💡</div>
+    </div>
+
+    <header class="site-header">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <img src="assets/logo.png" onerror="this.onerror=null; this.src='assets/logo.png';"
+                    alt="AI Tool Hub Logo" class="site-logo-img">
+                AI Tool Hub
+            </a>
+            <nav class="main-nav">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link active" style="color: var(--accent-color); font-weight: 600;">About
+                    Founder</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="about-main container">
+        <div class="profile-header">
+            <h1 class="profile-name">Md Sohail Ali</h1>
+            <p class="profile-title">Founder & Lead Developer @ AI Tool Hub</p>
+        </div>
+
+        <div class="about-grid">
+            <div class="about-card">
+                <h2>👋 About Me</h2>
+                <p>Hello! My name is <strong>Md Sohail Ali</strong>, and I created AI Tool Hub to make your life easier.
+                </p>
+                <p>There are hundreds of AI tools out there for writing, coding, creating images, and studying. Finding
+                    the right one can be very confusing. I built this website as a simple, free directory where anyone
+                    can easily search, compare, and discover the exact AI tool they need without wasting time.</p>
+
+                <h2 style="margin-top: 2.5rem;">🎯 My Goal</h2>
+                <p>My goal is to help students, computer programmers, and creators work faster. This website is your
+                    one-stop shop to find exactly which AI can help you finish your tasks today.</p>
+            </div>
+
+            <div class="about-side">
+                <div class="about-card" style="margin-bottom: var(--spacing-lg);">
+                    <h2>💻 Core Expertise</h2>
+                    <!-- Replace these with your actual skills -->
+                    <div class="skills-list">
+                        <span class="skill-tag">Web Development</span>
+                        <span class="skill-tag">UI/UX Design</span>
+                        <span class="skill-tag">AI Integration</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">JavaScript / HTML / CSS</span>
+                        <span class="skill-tag">Prompt Engineering</span>
+                    </div>
+                </div>
+
+                <div class="about-card">
+                    <h2>🔗 Connect With Me</h2>
+                    <!-- Add your real social media links here -->
+                    <div class="social-links">
+                        <a href="mailto:mdsohailali7860@gmail.com" class="social-btn"
+                            style="background: var(--gradient-text); color: white;">
+                            ✉️ mdsohailali7860@gmail.com
+                        </a>
+                        <a href="#" class="social-btn" target="_blank">
+                            💼 LinkedIn Profile
+                        </a>
+                        <a href="#" class="social-btn" target="_blank">
+                            🐦 Twitter / X
+                        </a>
+                        <a href="#" class="social-btn" target="_blank">
+                            🐙 GitHub Projects
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2026 AI Tool Hub | Designed & Built by Md Sohail Ali</p>
+        </div>
+    </footer>
+
+    <!-- Include main script for any global interactivity -->
+    <script src="script.js"></script>
+</body>
+
+</html>
