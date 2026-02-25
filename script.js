@@ -1486,16 +1486,16 @@ document.addEventListener('DOMContentLoaded', () => {
             const domain = new URL(tool.website).hostname;
             return `https://icon.horse/icon/${domain}`;
         } catch (e) {
-            return `/${tool.image}`;
+            return tool.image;
         }
     }
 
     // Function to create tool card HTML
     function createToolCard(tool) {
         const logoUrl = getOfficialLogo(tool);
-        const fallback = `/${tool.image}`;
+        const fallback = tool.image;
         return `
-            <div class="tool-card">
+            <div class="tool-card" onclick="window.location.href='tool-detail.html?id=${tool.id}'" style="cursor: pointer;">
                 <div class="tool-header">
                     <img src="${logoUrl}" onerror="this.onerror=null; this.src='${fallback}';" alt="${tool.name} Logo" class="tool-logo">
                     <div class="tool-info">

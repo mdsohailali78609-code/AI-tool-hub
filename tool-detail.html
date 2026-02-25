@@ -52,7 +52,7 @@
                 const tool = aiTools.find(t => t.id == toolId);
 
                 if (tool) {
-                    let logoUrl = `/${tool.image}`;
+                    let logoUrl = `${tool.image}`;
                     try {
                         const domain = new URL(tool.website).hostname;
                         logoUrl = `https://icon.horse/icon/${domain}`;
@@ -61,7 +61,7 @@
                     container.innerHTML = `
                         <div class="detail-container">
                         <div class="detail-header">
-                            <img src="${logoUrl}" onerror="this.onerror=null; this.src='/${tool.image}';" alt="${tool.name} Logo" class="tool-logo-large">
+                            <img src="${logoUrl}" onerror="this.onerror=null; this.src='${tool.image}';" alt="${tool.name} Logo" class="tool-logo-large">
                             <div class="header-text">
                                 <h1>${tool.name}</h1>
                                 <span class="pricing-tag">${tool.pricing}</span>
@@ -150,14 +150,14 @@
                                         ${tool.similarTools.map(sid => {
                         const sTool = aiTools.find(t => t.id === sid);
                         if (!sTool) return '';
-                        let sLogoUrl = `/${sTool.image}`;
+                        let sLogoUrl = `${sTool.image}`;
                         try {
                             const domain = new URL(sTool.website).hostname;
                             sLogoUrl = `https://icon.horse/icon/${domain}`;
                         } catch (e) { }
                         return `
                                                 <a href="tool-detail.html?id=${sTool.id}" class="similar-tool-card">
-                                                    <img src="${sLogoUrl}" onerror="this.onerror=null; this.src='/${sTool.image}';" alt="${sTool.name}" class="similar-logo">
+                                                    <img src="${sLogoUrl}" onerror="this.onerror=null; this.src='${sTool.image}';" alt="${sTool.name}" class="similar-logo">
                                                     <span>${sTool.name}</span>
                                                 </a>
                                             `;
