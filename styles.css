@@ -122,6 +122,98 @@ body {
     }
 }
 
+/* Global 3D Floating Icons */
+.global-3d-icons {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 0;
+    overflow: hidden;
+}
+
+.g-icon {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05), inset 0 0 0 1px rgba(255, 255, 255, 0.4);
+    animation: floatGlobal 15s infinite ease-in-out;
+}
+
+@keyframes floatGlobal {
+
+    0%,
+    100% {
+        transform: translateY(0) rotate(0deg);
+    }
+
+    50% {
+        transform: translateY(-40px) rotate(10deg);
+    }
+}
+
+.g-icon-1 {
+    top: 15%;
+    left: 5%;
+    animation-delay: -2s;
+    transform: translateZ(20px) rotate(-10deg);
+}
+
+.g-icon-2 {
+    top: 45%;
+    right: 8%;
+    animation-delay: -5s;
+    transform: translateZ(50px) rotate(15deg);
+}
+
+.g-icon-3 {
+    bottom: 20%;
+    left: 10%;
+    animation-delay: -8s;
+    transform: translateZ(10px) rotate(5deg);
+}
+
+.g-icon-4 {
+    top: 75%;
+    right: 15%;
+    animation-delay: -1s;
+    transform: translateZ(30px) rotate(-5deg);
+}
+
+.g-icon-5 {
+    top: 5%;
+    right: 35%;
+    animation-delay: -11s;
+    transform: translateZ(40px) rotate(20deg);
+}
+
+.g-icon-6 {
+    bottom: 10%;
+    right: 25%;
+    animation-delay: -14s;
+    transform: translateZ(60px) rotate(-15deg);
+}
+
+@media (max-width: 768px) {
+    .g-icon {
+        width: 40px;
+        height: 40px;
+        font-size: 1.2rem;
+        border-radius: 10px;
+    }
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -364,7 +456,8 @@ a {
     .hero-visual {
         transform: scale(0.6);
         height: 250px;
-        margin-top: -2rem;
+        margin-top: 1rem;
+        transform-origin: center top;
     }
 }
 
@@ -985,13 +1078,64 @@ h2 {
     }
 
     .hero-visual {
-        transform: scale(0.45);
+        transform: scale(0.4) translateY(20px);
         height: 180px;
-        margin-top: -3rem;
+        margin-top: 1rem;
+        transform-origin: center top;
+        margin-bottom: -1rem;
     }
 
     .tools-grid {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(3, 1fr) !important;
+        gap: 0.5rem;
+    }
+
+    /* Force mini cards for 3-column mobile view */
+    .tools-grid .tool-card {
+        padding: 0.5rem !important;
+        border-radius: 12px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .tools-grid .tool-header {
+        flex-direction: column;
+        margin-bottom: 0;
+        gap: 0.25rem;
+    }
+
+    .tools-grid .tool-logo {
+        width: 32px;
+        height: 32px;
+        margin-right: 0;
+        margin-bottom: 0.25rem;
+        border-radius: 8px;
+    }
+
+    .tools-grid .tool-info {
+        width: 100%;
+    }
+
+    .tools-grid .tool-info h3 {
+        font-size: 0.75rem;
+        line-height: 1.2;
+        margin-bottom: 0;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-width: 100%;
+    }
+
+    .tools-grid .tool-category {
+        font-size: 0.55rem;
+        display: block;
+        margin-top: 2px;
+    }
+
+    /* Hide heavy content on mobile for the 3 column view */
+    .tools-grid .tool-desc,
+    .tools-grid .tool-footer {
+        display: none !important;
     }
 
     .category-grid {
